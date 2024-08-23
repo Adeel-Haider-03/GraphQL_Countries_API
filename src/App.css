@@ -1,0 +1,76 @@
+/* App.css */
+
+/* Style for the main container */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+label {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  display: block;
+  font-weight: bold;
+}
+
+select {
+  font-size: 1em;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: border-color 0.3s;
+}
+
+select:hover {
+  border-color: #007bff;
+}
+
+h4 {
+  margin: 10px 0;
+  color: #333;
+}
+
+span {
+  font-weight: normal;
+}
+
+h4 span {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.country-info {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.country-info h4 {
+  margin-bottom: 10px;
+}
+
+.country-info h6 {
+  margin: 5px 0;
+}
+
+.country-info span {
+  font-weight: normal;
+  color: #555;
+}
