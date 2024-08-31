@@ -12,7 +12,7 @@ This React application allows users to explore detailed information about variou
 
 1. **Clone the repository:**
 
-   git clone https://github.com/yourusername/countries-information-finder.git
+   git clone https://github.com/yourusername/countries-information-finder.git  
    cd countries-information-finder
 
 2. **Install dependencies:**
